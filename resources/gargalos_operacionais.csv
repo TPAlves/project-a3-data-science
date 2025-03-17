@@ -1,0 +1,201 @@
+Data_Gargalo,Tipo_Gargalo,CD_Afetado,Tempo_Atraso_horas
+2025-01-01,Atraso na Expedição,São Paulo,11
+2025-01-03,Atraso na Expedição,Salvador,20
+2025-01-05,Falta de Estoque,Natal,17
+2025-01-07,Atraso na Expedição,Porto Alegre,3
+2025-01-09,Excesso de Pedidos,Manaus,22
+2025-01-11,Excesso de Pedidos,Salvador,20
+2025-01-13,Falta de Estoque,Porto Alegre,23
+2025-01-15,Falta de Estoque,São Paulo,9
+2025-01-17,Falta de Estoque,Manaus,10
+2025-01-19,Atraso na Expedição,Manaus,3
+2025-01-21,Excesso de Pedidos,Manaus,3
+2025-01-23,Excesso de Pedidos,Manaus,23
+2025-01-25,Atraso na Expedição,Porto Alegre,11
+2025-01-27,Excesso de Pedidos,Manaus,1
+2025-01-29,Excesso de Pedidos,Manaus,3
+2025-01-31,Atraso na Expedição,Manaus,22
+2025-02-02,Falta de Estoque,Porto Alegre,6
+2025-02-04,Falta de Estoque,Natal,18
+2025-02-06,Atraso na Expedição,São Paulo,17
+2025-02-08,Excesso de Pedidos,Natal,9
+2025-02-10,Excesso de Pedidos,Manaus,18
+2025-02-12,Excesso de Pedidos,Salvador,23
+2025-02-14,Excesso de Pedidos,Porto Alegre,20
+2025-02-16,Atraso na Expedição,Manaus,21
+2025-02-18,Atraso na Expedição,Natal,2
+2025-02-20,Excesso de Pedidos,Salvador,6
+2025-02-22,Atraso na Expedição,Salvador,21
+2025-02-24,Falta de Estoque,Natal,5
+2025-02-26,Atraso na Expedição,Salvador,17
+2025-02-28,Excesso de Pedidos,Manaus,15
+2025-03-02,Excesso de Pedidos,São Paulo,3
+2025-03-04,Excesso de Pedidos,São Paulo,19
+2025-03-06,Atraso na Expedição,Salvador,22
+2025-03-08,Falta de Estoque,Natal,23
+2025-03-10,Falta de Estoque,São Paulo,12
+2025-03-12,Atraso na Expedição,Salvador,16
+2025-03-14,Falta de Estoque,Manaus,23
+2025-03-16,Atraso na Expedição,Salvador,3
+2025-03-18,Falta de Estoque,São Paulo,4
+2025-03-20,Excesso de Pedidos,São Paulo,21
+2025-03-22,Excesso de Pedidos,São Paulo,21
+2025-03-24,Falta de Estoque,Porto Alegre,12
+2025-03-26,Excesso de Pedidos,Natal,12
+2025-03-28,Falta de Estoque,Manaus,10
+2025-03-30,Atraso na Expedição,Porto Alegre,10
+2025-04-01,Excesso de Pedidos,Salvador,19
+2025-04-03,Atraso na Expedição,Porto Alegre,15
+2025-04-05,Falta de Estoque,Porto Alegre,21
+2025-04-07,Excesso de Pedidos,Porto Alegre,11
+2025-04-09,Atraso na Expedição,Manaus,1
+2025-04-11,Atraso na Expedição,Salvador,22
+2025-04-13,Atraso na Expedição,Natal,1
+2025-04-15,Atraso na Expedição,São Paulo,19
+2025-04-17,Atraso na Expedição,Salvador,21
+2025-04-19,Falta de Estoque,Manaus,15
+2025-04-21,Atraso na Expedição,Natal,21
+2025-04-23,Excesso de Pedidos,Natal,16
+2025-04-25,Atraso na Expedição,Manaus,7
+2025-04-27,Excesso de Pedidos,São Paulo,1
+2025-04-29,Excesso de Pedidos,Porto Alegre,12
+2025-05-01,Atraso na Expedição,São Paulo,5
+2025-05-03,Falta de Estoque,São Paulo,21
+2025-05-05,Falta de Estoque,Salvador,21
+2025-05-07,Falta de Estoque,São Paulo,14
+2025-05-09,Atraso na Expedição,Salvador,5
+2025-05-11,Falta de Estoque,Porto Alegre,23
+2025-05-13,Excesso de Pedidos,Salvador,17
+2025-05-15,Falta de Estoque,Natal,13
+2025-05-17,Falta de Estoque,Porto Alegre,14
+2025-05-19,Falta de Estoque,Manaus,20
+2025-05-21,Falta de Estoque,Natal,5
+2025-05-23,Excesso de Pedidos,Salvador,7
+2025-05-25,Atraso na Expedição,Porto Alegre,3
+2025-05-27,Falta de Estoque,Manaus,11
+2025-05-29,Excesso de Pedidos,Salvador,10
+2025-05-31,Falta de Estoque,Salvador,14
+2025-06-02,Excesso de Pedidos,Porto Alegre,21
+2025-06-04,Excesso de Pedidos,Porto Alegre,18
+2025-06-06,Excesso de Pedidos,Natal,4
+2025-06-08,Atraso na Expedição,Salvador,18
+2025-06-10,Falta de Estoque,Manaus,20
+2025-06-12,Atraso na Expedição,São Paulo,22
+2025-06-14,Atraso na Expedição,Porto Alegre,17
+2025-06-16,Atraso na Expedição,São Paulo,15
+2025-06-18,Atraso na Expedição,São Paulo,8
+2025-06-20,Atraso na Expedição,Natal,4
+2025-06-22,Falta de Estoque,Natal,8
+2025-06-24,Excesso de Pedidos,Natal,8
+2025-06-26,Atraso na Expedição,Salvador,14
+2025-06-28,Falta de Estoque,Salvador,17
+2025-06-30,Atraso na Expedição,Manaus,4
+2025-07-02,Atraso na Expedição,Salvador,22
+2025-07-04,Falta de Estoque,Natal,15
+2025-07-06,Excesso de Pedidos,Salvador,15
+2025-07-08,Atraso na Expedição,Manaus,19
+2025-07-10,Atraso na Expedição,Manaus,10
+2025-07-12,Atraso na Expedição,Natal,9
+2025-07-14,Excesso de Pedidos,Manaus,12
+2025-07-16,Falta de Estoque,Salvador,12
+2025-07-18,Atraso na Expedição,Salvador,20
+2025-07-20,Falta de Estoque,Porto Alegre,20
+2025-07-22,Atraso na Expedição,Salvador,19
+2025-07-24,Atraso na Expedição,Manaus,4
+2025-07-26,Excesso de Pedidos,Porto Alegre,14
+2025-07-28,Atraso na Expedição,São Paulo,6
+2025-07-30,Excesso de Pedidos,Porto Alegre,16
+2025-08-01,Falta de Estoque,Salvador,18
+2025-08-03,Excesso de Pedidos,Natal,16
+2025-08-05,Atraso na Expedição,São Paulo,19
+2025-08-07,Excesso de Pedidos,São Paulo,21
+2025-08-09,Excesso de Pedidos,Salvador,8
+2025-08-11,Atraso na Expedição,São Paulo,12
+2025-08-13,Falta de Estoque,São Paulo,22
+2025-08-15,Falta de Estoque,Manaus,11
+2025-08-17,Atraso na Expedição,São Paulo,14
+2025-08-19,Excesso de Pedidos,Porto Alegre,8
+2025-08-21,Excesso de Pedidos,Manaus,4
+2025-08-23,Excesso de Pedidos,Manaus,14
+2025-08-25,Atraso na Expedição,Porto Alegre,16
+2025-08-27,Atraso na Expedição,Manaus,14
+2025-08-29,Falta de Estoque,Manaus,12
+2025-08-31,Excesso de Pedidos,Natal,11
+2025-09-02,Atraso na Expedição,Natal,19
+2025-09-04,Falta de Estoque,Porto Alegre,9
+2025-09-06,Atraso na Expedição,Manaus,1
+2025-09-08,Excesso de Pedidos,Salvador,15
+2025-09-10,Excesso de Pedidos,Manaus,17
+2025-09-12,Falta de Estoque,Porto Alegre,4
+2025-09-14,Atraso na Expedição,Manaus,23
+2025-09-16,Atraso na Expedição,Natal,18
+2025-09-18,Atraso na Expedição,Salvador,4
+2025-09-20,Excesso de Pedidos,São Paulo,10
+2025-09-22,Falta de Estoque,Porto Alegre,21
+2025-09-24,Excesso de Pedidos,Salvador,12
+2025-09-26,Falta de Estoque,São Paulo,1
+2025-09-28,Excesso de Pedidos,Manaus,14
+2025-09-30,Falta de Estoque,Porto Alegre,1
+2025-10-02,Atraso na Expedição,São Paulo,16
+2025-10-04,Excesso de Pedidos,Manaus,10
+2025-10-06,Excesso de Pedidos,Natal,14
+2025-10-08,Atraso na Expedição,Salvador,7
+2025-10-10,Excesso de Pedidos,Manaus,10
+2025-10-12,Falta de Estoque,São Paulo,10
+2025-10-14,Atraso na Expedição,São Paulo,4
+2025-10-16,Atraso na Expedição,Natal,2
+2025-10-18,Falta de Estoque,Porto Alegre,19
+2025-10-20,Falta de Estoque,Salvador,17
+2025-10-22,Falta de Estoque,Natal,4
+2025-10-24,Falta de Estoque,Salvador,12
+2025-10-26,Excesso de Pedidos,Salvador,14
+2025-10-28,Falta de Estoque,São Paulo,9
+2025-10-30,Excesso de Pedidos,São Paulo,13
+2025-11-01,Atraso na Expedição,Salvador,6
+2025-11-03,Excesso de Pedidos,Manaus,11
+2025-11-05,Falta de Estoque,Salvador,11
+2025-11-07,Falta de Estoque,Porto Alegre,11
+2025-11-09,Atraso na Expedição,Salvador,16
+2025-11-11,Excesso de Pedidos,Manaus,14
+2025-11-13,Atraso na Expedição,Salvador,6
+2025-11-15,Falta de Estoque,São Paulo,16
+2025-11-17,Atraso na Expedição,Manaus,8
+2025-11-19,Falta de Estoque,Natal,5
+2025-11-21,Excesso de Pedidos,Salvador,4
+2025-11-23,Falta de Estoque,Salvador,9
+2025-11-25,Excesso de Pedidos,São Paulo,7
+2025-11-27,Excesso de Pedidos,Porto Alegre,9
+2025-11-29,Atraso na Expedição,Manaus,10
+2025-12-01,Excesso de Pedidos,Manaus,3
+2025-12-03,Atraso na Expedição,Porto Alegre,17
+2025-12-05,Atraso na Expedição,Manaus,16
+2025-12-07,Atraso na Expedição,São Paulo,21
+2025-12-09,Excesso de Pedidos,São Paulo,10
+2025-12-11,Excesso de Pedidos,Porto Alegre,20
+2025-12-13,Atraso na Expedição,Manaus,23
+2025-12-15,Falta de Estoque,Porto Alegre,13
+2025-12-17,Falta de Estoque,São Paulo,7
+2025-12-19,Atraso na Expedição,Natal,10
+2025-12-21,Falta de Estoque,Natal,21
+2025-12-23,Excesso de Pedidos,Manaus,22
+2025-12-25,Falta de Estoque,Porto Alegre,3
+2025-12-27,Atraso na Expedição,São Paulo,18
+2025-12-29,Falta de Estoque,Manaus,13
+2025-12-31,Excesso de Pedidos,Manaus,1
+2026-01-02,Falta de Estoque,São Paulo,18
+2026-01-04,Atraso na Expedição,São Paulo,9
+2026-01-06,Atraso na Expedição,Salvador,5
+2026-01-08,Atraso na Expedição,São Paulo,14
+2026-01-10,Atraso na Expedição,Natal,15
+2026-01-12,Excesso de Pedidos,Natal,3
+2026-01-14,Falta de Estoque,Porto Alegre,11
+2026-01-16,Excesso de Pedidos,Natal,20
+2026-01-18,Falta de Estoque,Manaus,2
+2026-01-20,Atraso na Expedição,Salvador,4
+2026-01-22,Excesso de Pedidos,São Paulo,12
+2026-01-24,Atraso na Expedição,Natal,8
+2026-01-26,Atraso na Expedição,Salvador,18
+2026-01-28,Falta de Estoque,Manaus,6
+2026-01-30,Atraso na Expedição,Salvador,20
+2026-02-01,Excesso de Pedidos,Manaus,17
+2026-02-03,Excesso de Pedidos,Manaus,14

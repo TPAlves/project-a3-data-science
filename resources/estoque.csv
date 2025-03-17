@@ -1,0 +1,501 @@
+ID_Produto,CD_Armazenamento,Quantidade_Disponivel,Lead_Time_dias,Indice_Ruptura_Percentual
+1,Natal,266,15,0.34
+2,Porto Alegre,121,12,0.94
+3,Salvador,473,29,0.64
+4,Salvador,441,25,0.07
+5,São Paulo,728,24,0.32
+6,Porto Alegre,846,3,0.21
+7,Salvador,240,25,0.83
+8,São Paulo,233,8,0.39
+9,São Paulo,842,2,0.33
+10,Salvador,802,29,0.01
+11,Natal,57,15,0.69
+12,Salvador,985,17,0.6
+13,São Paulo,13,17,0.32
+14,Porto Alegre,475,26,0.37
+15,Salvador,11,1,0.36
+16,São Paulo,138,17,0.99
+17,Natal,867,2,0.19
+18,São Paulo,996,10,0.31
+19,Natal,857,19,0.33
+20,Manaus,42,12,0.93
+21,Natal,108,22,0.8
+22,Salvador,497,27,0.41
+23,Manaus,498,29,0.89
+24,Salvador,918,1,0.61
+25,Manaus,831,11,0.01
+26,São Paulo,780,21,0.37
+27,Manaus,873,16,0.39
+28,Manaus,659,10,0.5
+29,Salvador,426,9,0.92
+30,Natal,288,18,0.29
+31,Manaus,781,5,0.47
+32,Manaus,996,5,0.53
+33,Manaus,965,21,0.34
+34,São Paulo,591,6,0.76
+35,Porto Alegre,777,28,0.49
+36,São Paulo,638,16,0.37
+37,Manaus,913,17,0.11
+38,Porto Alegre,460,27,0.23
+39,Manaus,573,27,0.52
+40,Salvador,606,3,0.45
+41,Porto Alegre,575,8,0.96
+42,Manaus,752,17,1.0
+43,São Paulo,316,7,0.17
+44,Natal,117,4,0.7
+45,Porto Alegre,850,26,0.02
+46,Natal,68,5,0.53
+47,Salvador,644,6,0.44
+48,São Paulo,482,7,0.86
+49,Salvador,558,4,0.08
+50,Natal,536,4,0.56
+51,Manaus,213,14,0.01
+52,Porto Alegre,299,12,0.18
+53,Porto Alegre,993,10,0.92
+54,Manaus,997,2,0.92
+55,Porto Alegre,821,23,0.29
+56,Manaus,484,20,0.65
+57,São Paulo,168,5,0.87
+58,Porto Alegre,308,16,0.89
+59,Natal,146,28,1.0
+60,Porto Alegre,551,12,0.16
+61,São Paulo,854,25,0.09
+62,São Paulo,969,9,0.42
+63,São Paulo,608,23,0.32
+64,Manaus,495,4,0.33
+65,São Paulo,186,1,0.32
+66,Salvador,73,11,0.29
+67,Porto Alegre,407,6,0.08
+68,Natal,519,15,0.44
+69,Salvador,479,7,0.55
+70,São Paulo,574,22,0.77
+71,Natal,77,4,0.27
+72,Natal,839,9,0.01
+73,Porto Alegre,515,13,0.31
+74,Porto Alegre,718,16,0.69
+75,Natal,266,10,0.21
+76,Porto Alegre,174,13,0.27
+77,Porto Alegre,336,28,0.25
+78,Natal,480,28,0.49
+79,Natal,525,16,0.06
+80,Manaus,514,17,0.61
+81,Natal,484,2,0.11
+82,Manaus,757,9,0.33
+83,Natal,949,3,0.33
+84,Salvador,703,22,0.84
+85,Manaus,602,12,0.74
+86,São Paulo,639,23,0.04
+87,Manaus,965,9,0.64
+88,Porto Alegre,724,17,0.63
+89,São Paulo,373,28,0.74
+90,Natal,175,8,0.45
+91,Natal,329,5,0.67
+92,Manaus,865,27,0.76
+93,Porto Alegre,762,18,0.83
+94,São Paulo,259,7,0.06
+95,Manaus,175,24,0.32
+96,Porto Alegre,908,27,0.59
+97,Manaus,759,28,0.46
+98,Natal,878,8,0.36
+99,São Paulo,925,26,0.94
+100,Natal,237,2,0.34
+101,Porto Alegre,293,13,0.73
+102,Manaus,491,6,0.49
+103,Salvador,281,2,0.18
+104,Porto Alegre,298,5,0.71
+105,Manaus,872,11,0.84
+106,Salvador,512,24,0.54
+107,São Paulo,651,24,0.06
+108,Manaus,466,14,0.81
+109,Salvador,361,12,0.19
+110,Salvador,902,19,0.46
+111,São Paulo,353,28,0.02
+112,Natal,949,5,0.64
+113,Manaus,88,20,0.06
+114,Salvador,341,23,0.66
+115,São Paulo,180,29,0.73
+116,Manaus,884,4,0.31
+117,São Paulo,707,27,0.8
+118,Porto Alegre,31,4,0.99
+119,Salvador,97,12,0.79
+120,Natal,565,8,0.63
+121,Porto Alegre,702,23,0.48
+122,Natal,531,19,0.03
+123,Manaus,526,27,0.6
+124,Porto Alegre,829,4,1.0
+125,Porto Alegre,401,21,0.59
+126,Salvador,269,8,0.21
+127,Natal,159,17,0.29
+128,Porto Alegre,857,18,0.17
+129,Salvador,853,23,0.08
+130,Natal,560,1,0.11
+131,Manaus,351,25,0.83
+132,Natal,781,20,0.88
+133,Natal,977,13,0.13
+134,Natal,22,3,0.01
+135,Salvador,352,17,0.09
+136,Salvador,549,16,0.22
+137,São Paulo,104,24,0.71
+138,Natal,154,21,0.23
+139,Porto Alegre,220,29,0.06
+140,Manaus,916,14,0.41
+141,São Paulo,519,22,0.45
+142,Manaus,781,22,0.97
+143,São Paulo,555,7,0.39
+144,São Paulo,298,25,0.2
+145,Porto Alegre,775,26,0.15
+146,São Paulo,771,17,0.07
+147,São Paulo,465,21,0.0
+148,São Paulo,967,7,0.66
+149,Manaus,847,5,0.73
+150,Salvador,823,6,0.51
+151,Salvador,17,26,0.19
+152,Salvador,833,4,0.48
+153,São Paulo,808,25,0.8
+154,Manaus,959,29,0.96
+155,Manaus,956,20,0.32
+156,Salvador,323,13,0.18
+157,Natal,1,13,0.93
+158,Salvador,502,22,0.83
+159,Manaus,923,25,0.26
+160,Salvador,267,2,0.75
+161,Salvador,16,6,0.39
+162,Natal,58,24,0.55
+163,Porto Alegre,405,25,0.56
+164,Salvador,870,27,0.91
+165,Natal,498,23,0.94
+166,Manaus,381,12,0.17
+167,São Paulo,191,7,0.86
+168,Salvador,385,7,0.92
+169,Natal,7,4,0.29
+170,São Paulo,912,24,0.51
+171,Manaus,711,12,0.79
+172,Natal,100,10,0.87
+173,Manaus,847,22,0.94
+174,Salvador,599,19,0.32
+175,Natal,757,12,0.73
+176,Manaus,520,25,0.93
+177,Manaus,443,20,0.14
+178,Porto Alegre,887,22,0.8
+179,Manaus,452,2,0.03
+180,Natal,785,22,0.57
+181,Manaus,752,11,0.54
+182,São Paulo,549,8,0.68
+183,Manaus,1,26,0.66
+184,São Paulo,890,25,0.55
+185,Natal,438,26,0.01
+186,Manaus,670,5,0.5
+187,São Paulo,975,13,0.88
+188,Natal,257,8,0.99
+189,Porto Alegre,848,23,0.48
+190,Porto Alegre,72,19,0.37
+191,Salvador,77,17,0.6
+192,São Paulo,788,24,0.83
+193,Natal,262,26,0.33
+194,São Paulo,444,29,0.81
+195,São Paulo,920,15,0.07
+196,São Paulo,87,17,0.98
+197,Salvador,729,15,0.24
+198,Manaus,177,26,0.68
+199,Manaus,963,10,0.56
+200,Natal,441,23,0.03
+201,Natal,375,26,0.3
+202,Manaus,291,27,0.4
+203,Manaus,577,9,0.11
+204,São Paulo,85,19,0.29
+205,Porto Alegre,196,2,0.9
+206,São Paulo,23,24,0.72
+207,Manaus,399,24,0.18
+208,Manaus,476,15,0.38
+209,Manaus,582,10,0.12
+210,Natal,536,2,0.21
+211,Porto Alegre,505,28,0.32
+212,Natal,593,10,0.87
+213,Manaus,607,26,0.2
+214,Natal,876,17,0.73
+215,Manaus,708,29,0.42
+216,Salvador,780,21,0.91
+217,Salvador,711,14,0.29
+218,São Paulo,154,15,0.45
+219,Salvador,523,21,0.62
+220,Natal,869,23,0.51
+221,Salvador,122,25,0.27
+222,Porto Alegre,199,17,0.29
+223,Natal,335,12,0.83
+224,Manaus,922,24,0.52
+225,Natal,436,23,0.31
+226,Manaus,710,3,0.87
+227,Salvador,68,1,0.34
+228,Salvador,811,4,0.39
+229,Salvador,95,9,0.11
+230,Salvador,69,10,0.31
+231,Natal,306,4,0.43
+232,Porto Alegre,16,23,0.74
+233,Manaus,951,16,0.35
+234,Porto Alegre,904,27,0.54
+235,Salvador,154,5,0.76
+236,São Paulo,741,9,0.91
+237,Porto Alegre,600,18,0.29
+238,Porto Alegre,438,22,0.48
+239,Porto Alegre,471,19,0.13
+240,Manaus,830,25,0.07
+241,Porto Alegre,87,19,0.2
+242,Salvador,150,14,0.36
+243,Porto Alegre,46,26,0.69
+244,Salvador,16,23,0.98
+245,Manaus,772,6,0.11
+246,São Paulo,385,6,0.02
+247,Natal,112,1,0.75
+248,Salvador,926,19,0.1
+249,Manaus,305,10,0.3
+250,São Paulo,516,2,0.73
+251,Porto Alegre,978,11,0.08
+252,Manaus,376,7,0.12
+253,Natal,428,23,0.21
+254,Salvador,859,10,0.84
+255,Natal,26,8,0.74
+256,Manaus,968,28,0.73
+257,Natal,814,25,0.75
+258,São Paulo,621,15,0.51
+259,Manaus,568,22,0.13
+260,São Paulo,3,29,0.71
+261,Salvador,666,10,0.32
+262,São Paulo,77,8,0.03
+263,Salvador,925,3,0.69
+264,Porto Alegre,991,4,0.51
+265,Natal,366,7,0.87
+266,Natal,616,12,0.02
+267,Porto Alegre,158,27,0.95
+268,Salvador,890,9,0.25
+269,Salvador,535,3,0.97
+270,Natal,298,29,0.26
+271,Natal,742,15,0.69
+272,Natal,585,28,0.73
+273,Manaus,397,26,0.37
+274,São Paulo,882,13,0.98
+275,Manaus,761,29,0.01
+276,São Paulo,687,20,0.71
+277,Manaus,831,17,0.17
+278,Manaus,14,22,0.48
+279,São Paulo,77,29,0.04
+280,Manaus,542,9,0.75
+281,Salvador,385,29,0.85
+282,São Paulo,565,27,0.14
+283,Salvador,365,28,0.36
+284,Porto Alegre,422,12,0.33
+285,São Paulo,823,20,0.31
+286,Salvador,231,14,0.94
+287,Porto Alegre,545,10,0.3
+288,Porto Alegre,918,25,0.92
+289,Salvador,976,22,0.27
+290,São Paulo,107,17,0.92
+291,Porto Alegre,849,20,0.02
+292,São Paulo,606,1,0.29
+293,Porto Alegre,87,18,0.07
+294,São Paulo,939,6,0.39
+295,Natal,409,8,0.88
+296,Salvador,794,18,0.45
+297,São Paulo,988,17,0.26
+298,Salvador,576,19,0.56
+299,Manaus,390,17,0.72
+300,Porto Alegre,127,5,0.76
+301,Natal,149,6,0.07
+302,Porto Alegre,158,7,0.86
+303,Natal,755,25,0.58
+304,Porto Alegre,151,3,0.86
+305,Salvador,851,24,0.4
+306,São Paulo,292,2,0.49
+307,Natal,833,29,0.87
+308,Porto Alegre,282,7,0.49
+309,Salvador,282,25,0.16
+310,Salvador,184,26,0.93
+311,Manaus,717,18,0.4
+312,Porto Alegre,278,1,0.66
+313,São Paulo,279,29,0.0
+314,Natal,740,1,0.78
+315,São Paulo,81,12,0.66
+316,Porto Alegre,117,1,0.21
+317,Manaus,434,21,0.45
+318,Manaus,402,8,0.55
+319,Natal,855,18,0.85
+320,Salvador,613,19,0.11
+321,Manaus,298,8,0.68
+322,Salvador,858,2,0.9
+323,Salvador,509,12,0.81
+324,Salvador,865,3,0.52
+325,Salvador,361,14,0.52
+326,Manaus,866,18,0.8
+327,São Paulo,357,22,0.46
+328,São Paulo,141,4,0.29
+329,Natal,353,8,0.41
+330,Porto Alegre,10,9,0.77
+331,Salvador,616,25,0.24
+332,São Paulo,197,6,0.45
+333,Manaus,337,11,0.08
+334,Manaus,287,27,0.97
+335,Manaus,169,17,0.58
+336,Natal,936,21,0.9
+337,São Paulo,625,13,0.04
+338,São Paulo,7,23,0.11
+339,São Paulo,207,14,0.05
+340,Manaus,221,27,0.31
+341,Salvador,227,10,0.88
+342,Salvador,284,20,0.46
+343,Salvador,322,17,0.81
+344,Salvador,946,29,0.05
+345,São Paulo,330,17,0.54
+346,Porto Alegre,216,10,0.95
+347,Manaus,206,23,0.86
+348,Natal,718,26,0.87
+349,Porto Alegre,375,26,0.26
+350,Natal,487,14,0.64
+351,Salvador,178,12,0.36
+352,Manaus,821,13,0.55
+353,Natal,253,1,0.07
+354,Porto Alegre,749,25,0.23
+355,Salvador,851,9,0.12
+356,Salvador,252,28,0.09
+357,Salvador,51,6,0.89
+358,Manaus,336,23,0.38
+359,Salvador,617,6,0.02
+360,Porto Alegre,485,22,0.64
+361,Natal,560,25,0.34
+362,Porto Alegre,670,18,0.78
+363,Manaus,855,5,0.84
+364,São Paulo,544,29,0.97
+365,Porto Alegre,585,8,0.06
+366,Porto Alegre,799,24,0.65
+367,São Paulo,120,12,0.51
+368,Manaus,362,7,0.28
+369,Salvador,686,5,0.27
+370,Manaus,886,1,0.76
+371,Natal,146,25,0.31
+372,Manaus,71,22,0.83
+373,Natal,415,9,0.03
+374,Salvador,830,12,0.36
+375,São Paulo,400,13,0.94
+376,Porto Alegre,657,11,0.42
+377,Natal,143,9,0.53
+378,Manaus,112,28,0.8
+379,São Paulo,237,12,0.29
+380,São Paulo,420,1,0.63
+381,Natal,56,3,0.41
+382,Natal,301,22,0.0
+383,Manaus,468,23,0.2
+384,Porto Alegre,115,29,0.79
+385,Natal,408,18,0.11
+386,Natal,585,22,0.22
+387,Manaus,170,21,0.11
+388,Manaus,336,8,0.94
+389,Manaus,362,26,0.94
+390,Manaus,619,17,0.63
+391,Manaus,799,16,0.81
+392,Salvador,62,8,0.83
+393,Salvador,918,9,0.44
+394,São Paulo,732,14,0.45
+395,Manaus,925,23,0.33
+396,Manaus,744,13,0.7
+397,Natal,808,22,0.5
+398,São Paulo,962,7,0.58
+399,Natal,777,7,0.89
+400,Manaus,640,2,0.46
+401,Porto Alegre,435,26,0.98
+402,Manaus,991,9,0.37
+403,São Paulo,903,20,0.09
+404,Natal,157,12,0.05
+405,Natal,405,20,0.41
+406,Salvador,662,11,0.71
+407,Salvador,207,1,0.66
+408,Manaus,957,7,0.97
+409,Salvador,937,24,0.61
+410,Porto Alegre,175,23,0.7
+411,São Paulo,693,22,0.54
+412,São Paulo,543,19,0.7
+413,Manaus,281,28,0.21
+414,Natal,670,21,0.06
+415,São Paulo,2,1,0.72
+416,Manaus,822,2,0.05
+417,Manaus,364,13,0.93
+418,Porto Alegre,216,15,0.32
+419,São Paulo,710,6,0.15
+420,São Paulo,519,28,0.51
+421,Porto Alegre,197,18,0.46
+422,Manaus,244,23,0.16
+423,Natal,495,6,0.64
+424,Salvador,840,20,0.57
+425,Natal,373,1,0.1
+426,Salvador,849,13,0.25
+427,Salvador,355,6,0.16
+428,São Paulo,130,26,0.74
+429,Natal,477,15,0.16
+430,São Paulo,535,21,0.58
+431,Manaus,110,11,0.4
+432,São Paulo,871,29,0.79
+433,Manaus,109,27,0.88
+434,Manaus,845,18,0.14
+435,São Paulo,513,7,0.82
+436,Porto Alegre,595,15,0.36
+437,Salvador,371,3,0.12
+438,Salvador,259,1,0.68
+439,Porto Alegre,784,15,0.98
+440,Manaus,745,3,0.29
+441,Manaus,693,29,0.14
+442,São Paulo,434,2,0.16
+443,Manaus,455,5,0.17
+444,Manaus,796,13,0.55
+445,São Paulo,449,8,0.69
+446,Porto Alegre,407,20,0.38
+447,Manaus,376,7,0.03
+448,Porto Alegre,4,11,0.24
+449,São Paulo,513,24,0.91
+450,Natal,803,20,0.97
+451,Porto Alegre,360,16,0.62
+452,Salvador,798,22,0.23
+453,São Paulo,298,13,0.37
+454,Porto Alegre,858,19,0.16
+455,Natal,842,11,0.52
+456,Porto Alegre,91,27,0.64
+457,Salvador,78,11,0.27
+458,Porto Alegre,355,7,0.63
+459,São Paulo,970,29,0.0
+460,São Paulo,394,26,0.37
+461,Porto Alegre,741,29,0.22
+462,Porto Alegre,248,7,0.81
+463,Manaus,996,27,0.94
+464,Natal,946,15,0.05
+465,Natal,638,23,0.71
+466,Natal,911,1,0.11
+467,Salvador,101,27,0.82
+468,Natal,632,9,0.37
+469,Salvador,824,20,0.79
+470,Salvador,722,15,0.25
+471,Porto Alegre,597,4,0.88
+472,Porto Alegre,514,3,0.36
+473,São Paulo,477,27,0.01
+474,Natal,457,6,0.87
+475,São Paulo,583,14,0.28
+476,Natal,573,27,0.78
+477,Salvador,431,8,0.46
+478,Manaus,941,26,0.49
+479,Manaus,838,27,0.31
+480,São Paulo,825,6,0.25
+481,Porto Alegre,514,16,0.09
+482,Porto Alegre,713,6,0.71
+483,Salvador,133,6,0.99
+484,Natal,355,7,0.72
+485,Natal,863,24,0.45
+486,Salvador,107,4,0.98
+487,Natal,760,24,0.73
+488,Porto Alegre,528,7,0.57
+489,Salvador,803,5,0.27
+490,Manaus,93,16,0.48
+491,Manaus,433,29,0.31
+492,São Paulo,323,25,0.98
+493,Manaus,783,13,0.22
+494,Natal,634,16,0.61
+495,Natal,98,11,0.34
+496,Porto Alegre,156,13,0.59
+497,Porto Alegre,52,17,0.01
+498,Porto Alegre,704,29,0.58
+499,Manaus,544,21,0.11
+500,Manaus,936,27,0.8
