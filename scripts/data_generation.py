@@ -5,6 +5,7 @@ import os
 PATH_RESOURCES = os.path.join(os.path.dirname(os.path.dirname(__file__)), "resources/")
 CITIES = ["São Paulo", "Manaus", "Porto Alegre", "Salvador", "Natal"]
 TYPES_PRODUCTS = ["Eletrônico", "Vestuário", "Alimento", "Móvel", "Brinquedo"]
+COUNT_LINES = 50000
 
 
 def convert_datetime(df: pd.DataFrame, columns: list):
@@ -22,7 +23,6 @@ def clean_data(df: pd.DataFrame):
 
     - Remove valores duplicados
     - Remove valores nulos
-    - Remove valores com caracteres especiais
     """
     df.drop_duplicates(inplace=True)
     df.dropna(inplace=True)
@@ -69,19 +69,20 @@ def create_data_products():
     - Quantidade: Quantidade de produtos no pedido
     - Tempo_Total_Processamento: Tempo total de processamento do pedido (Tempo_Separacao + Tempo_Expedicao) em minutos
     """
-    num_orders = 1000
+    num_orders = COUNT_LINES
     orders = pd.DataFrame(
         {
             "ID_Pedido": range(1, num_orders + 1),
             "Data_Pedido": pd.date_range(
-                start="2025-01-01", periods=num_orders, freq="h"
+                start="2024-01-01", periods=num_orders, freq="min"
             ),
-            "Tempo_Separacao": np.random.randint(10, 120, size=num_orders),  # minutos
-            "Tempo_Expedicao": np.random.randint(10, 180, size=num_orders),  # minutos
-            "Tipo_Produto": np.random.choice(
-                TYPES_PRODUCTS,
-                size=num_orders,
-            ),
+            "Tempo_Separacao": np.random.randint(
+                10, 120, size=num_orders
+            ),  # 10 a 120 minutos
+            "Tempo_Expedicao": np.random.randint(
+                10, 180, size=num_orders
+            ),  # 10 a 180 minutos
+            "Tipo_Produto": np.random.choice(TYPES_PRODUCTS, size=num_orders),
             "Quantidade": np.random.randint(1, 10, size=num_orders),
         }
     )
@@ -105,7 +106,7 @@ def create_data_transport(distribution_centers: pd.DataFrame):
     - Tempo_Entrega_horas: Tempo de entrega em horas
     - Status_Pontualidade: Status da pontualidade da entrega
     """
-    num_vehicles = 200
+    num_vehicles = COUNT_LINES
     transport = pd.DataFrame(
         {
             "ID_Veiculo": range(1, num_vehicles + 1),
@@ -114,7 +115,7 @@ def create_data_transport(distribution_centers: pd.DataFrame):
                 distribution_centers["Localizacao"], size=num_vehicles
             ),
             "Data_Saida": pd.date_range(
-                start="2025-01-01", periods=num_vehicles, freq="3h"
+                start="2024-01-01", periods=num_vehicles, freq="min"
             ),
             "Distancia_km": np.random.randint(10, 500, size=num_vehicles),
             "Tempo_Entrega_horas": np.random.randint(1, 48, size=num_vehicles),
@@ -138,7 +139,7 @@ def create_data_stock(distribution_centers: pd.DataFrame):
     - Lead_Time_dias: Tempo médio de reposição do estoque em dias
     - Indice_Ruptura_Percentual: Índice de ruptura do produto
     """
-    num_products = 500
+    num_products = COUNT_LINES
     stock = pd.DataFrame(
         {
             "ID_Produto": range(1, num_products + 1),
@@ -165,20 +166,17 @@ def create_data_operation_locks():
     - CD_Afetado: Centro de distribuição afetado
     - Tempo_Atraso_horas: Tempo de atraso em horas
     """
-    num_bottlenecks = 200
-
+    num_bottlenecks = COUNT_LINES
     bottlenecks = pd.DataFrame(
         {
             "Data_Gargalo": pd.date_range(
-                start="2025-01-01", periods=num_bottlenecks, freq="2D"
+                start="2024-01-01", periods=num_bottlenecks, freq="min"
             ),
             "Tipo_Gargalo": np.random.choice(
                 ["Excesso de Pedidos", "Atraso na Expedição", "Falta de Estoque"],
                 size=num_bottlenecks,
             ),
-            "CD_Afetado": np.random.choice(
-                distribution_centers["Localizacao"], size=num_bottlenecks
-            ),
+            "CD_Afetado": np.random.choice(CITIES, size=num_bottlenecks),
             "Tempo_Atraso_horas": np.random.randint(1, 24, size=num_bottlenecks),
         }
     )
