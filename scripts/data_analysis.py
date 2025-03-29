@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+from unidecode import unidecode
 
 
 PATH_RESOURCES = os.path.join(
@@ -41,12 +42,13 @@ df.sort_values("mes_ano", inplace=True)
 
 print(
     """
-    -----------------------------------------------------------------------------------------------------
-    Gráfico 1: Ocupação Média dos Centros de Distribuição por Mês/Ano
-    Este gráfico mostra a ocupação média de cada centro de distribuição ao longo dos meses/anos.
-    Ele ajuda a identificar sazonalidades e períodos críticos de alta ocupação em cada CD.
-    -----------------------------------------------------------------------------------------------------
-    """
+-----------------------------------------------------------------------------------------------------
+Gráfico 1: Ocupação Média dos Centros de Distribuição por Mês/Ano
+Este gráfico mostra a ocupação média de cada centro de distribuição ao longo dos meses/anos.
+Ele ajuda a identificar sazonalidades e períodos críticos de alta ocupação em cada CD.
+-----------------------------------------------------------------------------------------------------
+    """,
+    end="",
 )
 grouped_data = (
     df.groupby(["mes_ano", "centro_distribuicao"])["percentual_ocupacao_CD"]
@@ -71,12 +73,13 @@ plt.show()
 
 print(
     """
-    -----------------------------------------------------------------------------------------------------
-    Gráfico 2: Heatmap de correlações entre variáveis relacionadas a atrasos
-    Este gráfico mostra as correlações entre variáveis como tempo total de processamento,
-    atraso no transporte e quantidade de itens. Ele ajuda a identificar relações entre essas variáveis.
-    -----------------------------------------------------------------------------------------------------
-"""
+-----------------------------------------------------------------------------------------------------
+Gráfico 2: Heatmap de correlações entre variáveis relacionadas a atrasos
+Este gráfico mostra as correlações entre variáveis como tempo total de processamento,
+atraso no transporte e quantidade de itens. Ele ajuda a identificar relações entre essas variáveis.
+-----------------------------------------------------------------------------------------------------
+""",
+    end="",
 )
 correlation_matrix = df[
     [
@@ -103,12 +106,13 @@ plt.show()
 
 print(
     """
-    -----------------------------------------------------------------------------------------------------
-    Gráfico 3: Boxplot de atrasos por centro de distribuição
-    Este gráfico mostra a distribuição dos atrasos no transporte para cada centro de distribuição.
-    Ele ajuda a identificar quais CDs têm maior variação ou problemas relacionados a atrasos.
-    -----------------------------------------------------------------------------------------------------
-"""
+-----------------------------------------------------------------------------------------------------
+Gráfico 3: Boxplot de atrasos por centro de distribuição
+Este gráfico mostra a distribuição dos atrasos no transporte para cada centro de distribuição.
+Ele ajuda a identificar quais CDs têm maior variação ou problemas relacionados a atrasos.
+-----------------------------------------------------------------------------------------------------
+""",
+    end="",
 )
 plt.figure(figsize=(12, 8))
 sns.boxplot(
@@ -131,11 +135,12 @@ plt.show()
 
 print(
     """
-    -----------------------------------------------------------------------------------------------------
-    Gráfico 4: Boxplots para Variáveis Críticas
-    Este gráfico exibe boxplots das variáveis relacionadas ao tempo e ocupação.
-    -----------------------------------------------------------------------------------------------------
-"""
+-----------------------------------------------------------------------------------------------------
+Gráfico 4: Boxplots para Variáveis Críticas
+Este gráfico exibe boxplots das variáveis relacionadas ao tempo e ocupação.
+-----------------------------------------------------------------------------------------------------
+""",
+    end="",
 )
 fig, axes = plt.subplots(2, 2, figsize=(14, 10))
 sns.boxplot(
@@ -174,18 +179,19 @@ axes[1, 1].set_title("Boxplot do Percentual de Ocupação do CD", fontsize=14)
 axes[1, 1].set_ylabel("Percentual de Ocupação (%)", fontsize=12)
 axes[1, 1].tick_params(axis="y", labelsize=10)
 fig.tight_layout()
-plt.savefig(os.path.join(PATH_IMAGES, "boxplots_variaveis_criticas.png"), dpi=900)
+plt.savefig(os.path.join(PATH_IMAGES, "boxplots_variaveis_criticas.png"), dpi=300)
 plt.show()
 
 
 print(
     """
-    -----------------------------------------------------------------------------------------------------
-    Gráfico 5: Análise dos itens mais atrasados por categoria
-    Este gráfico mostra quais categorias de produtos têm O maior número absoluto de pedidos atrasados.
-    Ele ajuda a entender quais tipos de produtos enfrentam mais problemas logísticos.
-    -----------------------------------------------------------------------------------------------------
-"""
+-----------------------------------------------------------------------------------------------------
+Gráfico 5: Análise dos itens mais atrasados por categoria
+Este gráfico mostra quais categorias de produtos têm O maior número absoluto de pedidos atrasados.
+Ele ajuda a entender quais tipos de produtos enfrentam mais problemas logísticos.
+-----------------------------------------------------------------------------------------------------
+""",
+    end="",
 )
 itens_atrasados = (
     df[df["status_pedido"] == "Atrasado"]
@@ -210,25 +216,37 @@ plt.show()
 
 print(
     """
-    -----------------------------------------------------------------------------------------------------
-    Gráfico 6: Scatterplot da relação entre ocupação do CD e atrasos no transporte
-    Este gráfico mostra como a ocupação do CD está relacionada aos atrasos no transporte,
-    com destaque para cada centro de distribuição. Ele ajuda a entender se CDs mais ocupados 
-    têm maior probabilidade de gerar atrasos.
-    -----------------------------------------------------------------------------------------------------
-"""
+-----------------------------------------------------------------------------------------------------
+Gráfico 6: Scatterplot da relação entre ocupação do CD e atrasos no transporte
+Este gráfico mostra como a ocupação do CD está relacionada aos atrasos no transporte,
+com destaque para cada centro de distribuição. Ele ajuda a entender se CDs mais ocupados 
+têm maior probabilidade de gerar atrasos.
+-----------------------------------------------------------------------------------------------------
+""",
+    end="",
 )
+
+df_atrasados = df[df["status_pedido"] == "Atrasado"]
+df_grouped = df_atrasados.groupby(
+    ["centro_distribuicao", "percentual_ocupacao_CD"], as_index=False
+).agg({"atraso_transporte_min": "mean"})
 plt.figure(figsize=(12, 8))
 sns.scatterplot(
-    data=df[df["status_pedido"] == "Atrasado"],
+    data=df_grouped,
     x="percentual_ocupacao_CD",
     y="atraso_transporte_min",
     hue="centro_distribuicao",
+    s=100,
 )
-plt.title("Relação entre Ocupação do CD e Atrasos no Transporte")
-plt.xlabel("Ocupação do CD (%)")
-plt.ylabel("Atraso no Transporte (minutos)")
-plt.legend(title="Centro de Distribuição", bbox_to_anchor=(1.05, 1), loc="upper left")
+plt.title("Relação entre Ocupação do CD e Atrasos no Transporte", fontsize=16)
+plt.xlabel("Ocupação do CD (%)", fontsize=14)
+plt.ylabel("Atraso no Transporte (minutos)", fontsize=14)
+plt.legend(
+    title="Centro de Distribuição",
+    bbox_to_anchor=(1.05, 1),
+    loc="upper left",
+    fontsize=12,
+)
 plt.tight_layout()
 plt.savefig(
     os.path.join(PATH_IMAGES, "relacao_ocupacao_atrasos.png"),
@@ -237,15 +255,61 @@ plt.savefig(
 )
 plt.show()
 
+print(
+    """
+-----------------------------------------------------------------------------------------------------
+Gráficos 7: Relação de Categorias de maior atraso por centro de distribuição
+Este gráfico mostra as categorias que possuem maior atraso por CD.
+Ele ajuda a identificar as categorias mais agravantes em relação ao atraso como um todo. 
+-----------------------------------------------------------------------------------------------------
+    """,
+    end="",
+)
+
+df_atrasados = df[df["status_pedido"] == "Atrasado"]
+df_grouped_cd_category = (
+    df_atrasados.groupby(["centro_distribuicao", "categoria_produto"])
+    .agg({"atraso_transporte_min": "sum"})
+    .reset_index()
+)
+cds = df_grouped_cd_category["centro_distribuicao"].unique()
+for cd in cds:
+    plt.figure(figsize=(10, 6))
+    cd_data = df_grouped_cd_category[
+        df_grouped_cd_category["centro_distribuicao"] == cd
+    ]
+    cd_nome_formatado = unidecode(cd)
+    sns.barplot(
+        data=cd_data,
+        x="categoria_produto",
+        y="atraso_transporte_min",
+        hue="categoria_produto",
+    )
+    plt.title(f"Relação de Categorias de Maior Atraso para o CD: {cd}", fontsize=14)
+    plt.xlabel("Categoria de Produto", fontsize=12)
+    plt.ylabel("Total de Atrasos (minutos)", fontsize=12)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(
+        os.path.join(
+            PATH_IMAGES,
+            f"relacao_categorias_atraso_{cd_nome_formatado.replace(' ', '_')}.png",
+        ),
+        dpi=300,
+        bbox_inches="tight",
+    )
+    plt.show()
+
 
 print(
     """
-    -----------------------------------------------------------------------------------------------------
-    Gráfico 7: Quantidade total de itens transportados por categoria
-    Este gráfico mostra o volume total transportado para cada categoria de produto.
-    Ele ajuda a identificar quais categorias têm maior demanda logística.
-    -----------------------------------------------------------------------------------------------------
-"""
+-----------------------------------------------------------------------------------------------------
+Gráfico 8: Quantidade total de itens transportados por categoria
+Este gráfico mostra o volume total transportado para cada categoria de produto.
+Ele ajuda a identificar quais categorias têm maior demanda logística.
+-----------------------------------------------------------------------------------------------------
+""",
+    end="",
 )
 itens_transportados = (
     df.groupby("categoria_produto")["quantidade_itens"]
@@ -269,10 +333,11 @@ plt.show()
 
 print(
     """
-      -----------------------------------------------------------------------------------------------------
-                                                 INSIGHTS
-      -----------------------------------------------------------------------------------------------------
-      """
+-----------------------------------------------------------------------------------------------------
+                                            INSIGHTS
+-----------------------------------------------------------------------------------------------------
+      """,
+    end="",
 )
 print("\n1. Padrões Temporais:")
 meses_maior_volume = (

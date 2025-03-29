@@ -54,6 +54,18 @@
 
 <hr>
 
+### Relação entre Categorias de maior atraso por CDs
+
+| CD                 | Categoria com maior atraso | Arquivo                                                                                                                             |
+| ------------------ | -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Belém (PA)         | Eletrônicos                | <a href="../resources/images/relacao_categorias_atraso_Belem_(PA).png">relacao*categorias_atraso_Belem*(PA).png</a>                 |
+| Brasília (DF)      | Vestuário                  | <a href="../resources/images/relacao_categorias_atraso_Brasilia_(DF).png">relacao*categorias_atraso_Brasilia*(DF).png</a>           |
+| Florianópolis (SC) | Brinquedos                 | <a href="../resources/images/relacao_categorias_atraso_Florianopolis_(SC).png">relacao*categorias_atraso_Florianopolis*(SC).png</a> |
+| Recife (PE)        | Alimentos                  | <a href="../resources/images/relacao_categorias_atraso_Recife_(PE).png">relacao*categorias_atraso_Recife*(PE).png</a>               |
+| São Paulo (SP)     | Vestuário                  | <a href="../resources/images/relacao_categorias_atraso_Sao_Paulo_(SP).png">relacao*categorias_atraso_Sao_Paulo*(SP).png</a>         |
+
+<hr>
+
 ### Quantidade Total de Itens Transportados por Categoria
 
 <img src="../resources/images/quantidade_itens_transportados_por_categoria.png" />
