@@ -1,15 +1,18 @@
-# Relação de Dados Gerados
+ ## Relação de Dados Gerados ##
 
-- id_pedido: Identificador único do pedido.
-- data_hora_pedido: Data e hora em que o pedido foi realizado.
-- centro_distribuicao: Nome ou código do centro de distribuição responsável pelo processamento do pedido.
-- percentual_ocupacao_CD: Percentual de ocupação do centro de distribuição no momento do processamento do pedido.
-- tempo_separacao_min: Tempo (em minutos) gasto para a separação dos itens do pedido dentro do CD.
-- tempo_embalagem_min: Tempo (em minutos) gasto na embalagem dos itens do pedido.
-- tempo_total_processamento_min: Tempo total (em minutos) desde a separação até a finalização da embalagem do pedido.
-- status_pedido: Status atual do pedido (ex: Pendente, Em Processamento, Enviado, Entregue).
-- atraso_transporte_min: Tempo de atraso (em minutos) no transporte do pedido até o destino final.
-- erro_picking: Indica se houve erro no picking (separação do pedido) no CD (ex: Sim/Não).
-- categoria_produto: Categoria do produto no pedido (ex: Eletrônicos, Vestuário, Alimentos, etc.).
-- quantidade_itens: Quantidade total de itens no pedido.
-- peso_total_kg: Peso total do pedido em quilogramas.
+| Coluna                     | Descrição                                                    | Tipo         | Exemplo                 |
+| -------------------------- | ------------------------------------------------------------ | ------------ | ----------------------- |
+| id_pedido                  | Identificador único do pedido                                | Inteiro      | 102345                  |
+| data_hora_pedido           | Data e hora da criação do pedido                             | Datetime     | 2025-03-15 14:32        |
+| centro_distribuicao        | CD onde o pedido foi processado                               | Categórico   | São Paulo (SP)          |
+| tempo_separacao_min        | Tempo (minutos) para separar o pedido                         | Numérico     | 18.5                    |
+| tempo_embalagem_min        | Tempo (minutos) para embalar                                  | Numérico     | 5.2                     |
+| tempo_total_processamento_min | Tempo total para processar pedido (separação + embalagem + expedição) | Numérico     | 34.7                    |
+| status_pedido              | Status final do pedido                                         | Categórico   | "Entregue" / "Atrasado"  |
+| percentual_ocupacao_CD     | Ocupação do centro de distribuição no momento do pedido (%)     | Numérico     | 82.3                    |
+| qtd_pedidos_dia_CD         | Quantidade total de pedidos processados no CD no dia         | Numérico     | 12.453                  |
+| erro_picking               | Pedido teve erro na separação?                                | Binário      | 0 (não) / 1 (sim)       |
+| atraso_transporte_min      | Tempo de atraso no transporte (se houver)                     | Numérico     | 12.1                    |
+| categoria_produto          | Tipo de produto enviado                                       | Categórico   | "Eletrodoméstico", "Vestuário" |
+| quantidade_itens           | Quantidade de itens no pedido                                  | Numérico     | 3                       |
+| peso_total_kg              | Peso total da carga do pedido                                 | Numérico     | 1.8                     |
