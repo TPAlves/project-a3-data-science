@@ -32,7 +32,7 @@
 <img src="../resources/images/boxplots_variaveis_criticas.png" />
 
 - Arquivo: `boxplots_variaveis_criticas.png`
-- Objetivo: Identificar variações nos tempos de expedição/logística por ocupação do CD.
+- Objetivo: Identificar outliers (valores atípicos) na distribuição dos dados, visando oportunidades de melhoria nos processos e a detecção de variações nos tempos de expedição/logística conforme a ocupação do CD.
 
 <hr>
 
