@@ -90,7 +90,7 @@ python3 scripts/data_analysis.py
 
 [Marcus Borges](https://github.com/Marcus-Borges) • Discente do curso de ciência da computação
 
-[Thiago Alves](https://github.com/TPAlves) • Discente do curso de
+[Thiago Alves](https://github.com/TPAlves) • Discente do curso de sistemas de informação
 
 ### 📄 Licença
 
