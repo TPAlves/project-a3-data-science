@@ -1,7 +1,7 @@
 # Análise de Dados Logísticos
 
 ### Ocupação Média dos Centros de Distribuição por Mês/Ano
-"https://drive.google.com/file/d/1FMXdt7QT5dmqYWfTkYiPWh5nOWaMfLPg/view?usp=drive_link
+<img src="../resources/images/ocupacao_media_por_mes_ano_barras.png" />
 
 <img src="../resources/images/ocupacao_media_cd_por_mes.png" />
 
