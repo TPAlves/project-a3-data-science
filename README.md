@@ -1,6 +1,7 @@
 # A3 - Ferramentas Computacionais e Programação para Ciência de Dados 🏫
-![Python](https://img.shields.io/badge/Python-3.12.3-blue?logo=python) 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow) 
+
+![Python](https://img.shields.io/badge/Python-3.12.3-blue?logo=python)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
 ## Análise de Gargalos Operacionais na Cadeia de Suprimentos: Uma Solução Analítica para a DataLog 💻
 
@@ -16,33 +17,32 @@ A DataLog, empresa fictícia, assim como muitas empresas do setor, enfrenta desa
 
 Este projeto propõe uma metodologia de análise de dados, seguindo as etapas do pipeline de análise de dados, para identificar esses gargalos. A solução utiliza Python e bibliotecas como Pandas, NumPy, Scikit-learn e Matplotlib para:
 
-* **Coleta e preparação de dados:** Identificação e tratamento dos dados relevantes para a análise. 
-* **Análise exploratória dos dados:** Investigação de padrões, tendências e outliers nos dados operacionais da DataLog. 
-* **Desenvolvimento dos modelos:** Implementação de modelos analíticos para identificar áreas de ineficiência e gargalos.
-* **Geração de visualizações:** Criação de visualizações claras e informativas para facilitar a interpretação dos resultados.
-* **Recomendações práticas:** Fornecimento de sugestões acionáveis para otimizar os processos e eliminar os gargalos identificados.
+- **Coleta e preparação de dados:** Identificação e tratamento dos dados relevantes para a análise.
+- **Análise exploratória dos dados:** Investigação de padrões, tendências e outliers nos dados operacionais da DataLog.
+- **Desenvolvimento dos modelos:** Implementação de modelos analíticos para identificar áreas de ineficiência e gargalos.
+- **Geração de visualizações:** Criação de visualizações claras e informativas para facilitar a interpretação dos resultados.
+- **Recomendações práticas:** Fornecimento de sugestões acionáveis para otimizar os processos e eliminar os gargalos identificados.
 
 ### Potenciais Benefícios 🥅
 
 A implementação desta solução pode proporcionar à DataLog:
 
-* Redução de custos operacionais. 
-* Melhoria na eficiência dos processos. 
-* Otimização da alocação de recursos. 
-* Aumento da satisfação do cliente através da redução de prazos de entrega e maior confiabilidade no serviço.
+- Redução de custos operacionais.
+- Melhoria na eficiência dos processos.
+- Otimização da alocação de recursos.
+- Aumento da satisfação do cliente através da redução de prazos de entrega e maior confiabilidade no serviço.
 
-### Visão Geral 🔍 
+### Visão Geral 🔍
 
 Abaixo, a distribuição de pedidos por centro de distribuição no dataset analisado:
 
-Centro de Distribuição   | Número de Pedidos
------------------------- | -----------------
-São Paulo (SP)           | ████████████████ 240
-Brasília (DF)            | ██████████        150
-Recife (PE)              | ████████          120
-Belém (PA)               | ██████             90
-Florianópolis (SC)       | ████               60
-
+| Centro de Distribuição | Número de Pedidos    |
+| ---------------------- | -------------------- |
+| São Paulo (SP)         | ████████████████ 240 |
+| Brasília (DF)          | ██████████ 150       |
+| Recife (PE)            | ████████ 120         |
+| Belém (PA)             | ██████ 90            |
+| Florianópolis (SC)     | ████ 60              |
 
 ### Estrutura do projeto 🏠:
 
@@ -61,32 +61,45 @@ Florianópolis (SC)       | ████               60
 │   ├── dados_gerados_infos.md 📄 Informações sobre os dados
 ```
 
+### Importante: ⚠️
+
+- Para executar o projeto, é necessário ter o Python 3.12.3 instalado ou superior.
+- O projeto utiliza bibliotecas específicas, que podem ser instaladas através do arquivo `requirements.txt`.
+- O Jupyter Notebook é utilizado para a execução dos scripts, portanto, é necessário tê-lo instalado.
+- É importante realizar a gerarção de dados sintéticos antes de executar a análise.
+- Utilize o jupyter server para executar os scripts.
+
 ### Instalação das dependências 📖:
 
 ```sh
 pip install -r requirements.txt
 ```
 
-### Geração de massa de dados 🎲:
+### Iniciar o Jupyter Notebook 🪐:
 
 ```sh
-python3 scripts/data_generation.py
+jupyter notebook
 ```
+
+### Geração de massa de dados 🎲:
+
+- scripts/data_generation.ipynb
 
 ### Análise dos dados 📊:
 
-```sh
-python3 scripts/data_analysis.py
-```
+- scripts/data_analysis.ipynb
+
 ---
-### Próximos Passos 📌 
+
+### Próximos Passos 📌
 
 - [ ] Implementar modelo preditivo com machine learning
 - [ ] Automatizar pipeline de análise
 - [ ] Criar dashboard interativo com Streamlit
 
 ---
-### Desenvolvido por 👨‍💻 
+
+### Desenvolvido por 👨‍💻
 
 [Marcus Borges](https://github.com/Marcus-Borges) • Discente do curso de ciência da computação
 
@@ -94,7 +107,8 @@ python3 scripts/data_analysis.py
 
 ### 📄 Licença
 
-![License](https://img.shields.io/badge/license-MIT-green) 
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ### 🐍 Python version: 3.12.3
+
 Este README fornece uma visão geral do projeto, sua motivação acadêmica e os principais resultados esperados. Para detalhes completos sobre a metodologia, implementação e resultados, consulte o artigo e o código-fonte disponíveis neste repositório.
