@@ -1,7 +1,7 @@
 # DataLog - Solução Analítica e Previsão de Demanda Logística com Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.12.3-blue?logo=python)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-%20Conclu%C3%ADdo-green)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Visão Geral
