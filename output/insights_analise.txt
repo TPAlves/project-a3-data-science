@@ -1,0 +1,16 @@
+padroes_temporais: Identificamos claros padrões sazonais na demanda, com picos durante eventos especiais como Black Friday e Natal. Também há variações semanais, com menor demanda nos fins de semana.
+
+diferencas_cds: O CD de São Paulo apresenta a maior demanda e utilização de capacidade, seguido por Brasília. Belém e Florianópolis têm demanda mais baixa e estável.
+
+categorias_produtos: Eletrônicos e Vestuário são as categorias com maior demanda e maior variabilidade sazonal, enquanto Alimentos apresenta demanda mais estável ao longo do ano.
+
+gargalos_capacidade: Identificamos períodos críticos onde a capacidade utilizada ultrapassa 80%, especialmente em São Paulo durante eventos especiais, o que está diretamente correlacionado com aumento nas taxas de atraso.
+
+fatores_influencia: Os principais fatores que influenciam a demanda são: eventos especiais (impacto de até 150%), sazonalidade mensal (maior no fim do ano), dia da semana (menor nos fins de semana) e categoria do produto.
+
+gargalos_processos: O processo de picking é o principal gargalo em todos os CDs, especialmente para produtos de alta complexidade como Eletrônicos e Casa e Decoração. A expedição apresenta gargalos significativos durante eventos especiais.
+
+erros_processos: As taxas de erro de picking e embalagem aumentam significativamente quando a capacidade utilizada ultrapassa 85%, especialmente em CDs com baixo nível de automação como Belém e Florianópolis.
+
+eficiencia_processos: São Paulo apresenta a maior eficiência em todos os processos devido ao alto nível de automação, enquanto Belém apresenta os maiores tempos de processamento e taxas de erro.
+
